@@ -1,0 +1,280 @@
+:root { 
+  --alto: #dadada;
+  --athens-gray: #efedf5;
+  --black: #000000;
+  --bright-gray: #2f3e4e;
+  --bright-gray-2: #2f3e4e80;
+  --dove-gray: #707070;
+  --purple-pizzazz: #ff65d9;
+  --shampoo: #ffc4f2;
+  --true-v: #8976f780;
+  --true-v-2: #8976f7;
+  --white: #ffffff;
+  --white-2: #ffffff80;
+ 
+  --font-size-l: 25px;
+  --font-size-m: 20px;
+  --font-size-s: 16px;
+  --font-size-xs: 15px;
+  --font-size-xxs: 14px;
+  --font-size-xxxs: 10px;
+  --font-size-xxxxs: 9px;
+ 
+  --font-family-manrope: "Manrope", Helvetica;
+  --font-family-oswald: "Oswald", Helvetica;
+  --font-family-poppins: "Poppins", Helvetica;
+  --font-family-segoeui-bold: "SegoeUI-Bold", Helvetica;
+  --font-family-segoeui-regular: "SegoeUI-Regular", Helvetica;
+  --font-family-tillana: "Tillana", Helvetica;
+}
+.poppins-normal-black-25px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-regular-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-regular-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-light-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.poppins-normal-black-11px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-light-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 300;
+}
+
+.manrope-bold-bright-gray-5px {
+  color: var(--bright-gray);
+  font-family: var(--font-family-manrope);
+  font-size: 5px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-bright-gray-9px {
+  color: var(--bright-gray-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-purple-pizzazz-20px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.segoeui-regular-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-segoeui-regular);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-bold-purple-pizzazz-10px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-white-10px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tillana-normal-shampoo-65px {
+  color: var(--shampoo);
+  font-family: var(--font-family-tillana);
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-purple-pizzazz-60px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-bright-gray-16px {
+  color: var(--bright-gray);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.tillana-normal-shampoo-37px {
+  color: var(--shampoo);
+  font-family: var(--font-family-tillana);
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.segoeui-bold-purple-pizzazz-10px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: var(--font-size-xxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.poppins-light-white-21px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.manrope-bold-bright-gray-12px {
+  color: var(--bright-gray);
+  font-family: var(--font-family-manrope);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-bright-gray-16px-2 {
+  color: var(--bright-gray-2);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.manrope-bold-purple-pizzazz-17px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-manrope);
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-normal-white-14px {
+  color: var(--white);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-light-white-18px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+}
+
+.segoeui-bold-purple-pizzazz-34px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-segoeui-bold);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-bright-gray-32px {
+  color: var(--bright-gray);
+  font-family: var(--font-family-manrope);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-purple-pizzazz-9px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xxxxs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-bright-gray-31px {
+  color: var(--bright-gray);
+  font-family: var(--font-family-manrope);
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-true-v-7px {
+  color: var(--true-v-2);
+  font-family: var(--font-family-manrope);
+  font-size: 7px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.manrope-bold-purple-pizzazz-15px {
+  color: var(--purple-pizzazz);
+  font-family: var(--font-family-manrope);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
+
+.border-1px-alto {
+  border: 1px solid var(--alto);
+}
+
+.border-1px-true-v {
+  border: 1px solid var(--true-v);
+}
