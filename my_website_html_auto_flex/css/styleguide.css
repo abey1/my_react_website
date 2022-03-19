@@ -123,18 +123,18 @@
   font-weight: 400;
 }
 
-.poppins-normal-white-25px {
-  color: var(--white);
-  font-family: var(--font-family-poppins);
-  font-size: var(--font-size-l);
-  font-style: normal;
-  font-weight: 400;
-}
-
 .tillana-normal-shampoo-65px {
   color: var(--shampoo);
   font-family: var(--font-family-tillana);
   font-size: 65px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.poppins-normal-white-25px {
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-l);
   font-style: normal;
   font-weight: 400;
 }
