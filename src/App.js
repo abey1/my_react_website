@@ -1,24 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useReducer } from "react";
+import Desktop from "./components/desktop";
+import Tablet from "./components/tablet.js";
+import Mobile from "./components/mobile.js";
+
+const reducer = (state, action) => {
+  if (action.type === "dataLoaded") {
+    const newState = { ...state, loading: false, data: action.payload };
+    return newState;
+  }
+};
+
+export const AppContext = React.createContext();
 
 function App() {
+  const initialState = { data: [], loading: true };
+  const [state, dispatch] = useReducer(reducer, initialState);
+
+  useEffect(() => {
+    const downloadData = async () => {
+      const d = await fetch(
+        "https://abeybruck.com/phpfiles/get_all_projects.php"
+      ).then((res) => res.json());
+      dispatch({ type: "dataLoaded", payload: d });
+    };
+    downloadData();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContext.Provider value={state}>
+      <input type="hidden" id="anPageName" name="page" value="desktop" />
+      <Desktop />
+      <Tablet />
+      <Mobile />
+    </AppContext.Provider>
   );
 }
 

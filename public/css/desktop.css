@@ -18,7 +18,7 @@
   display: flex;
   flex-direction: column;
   min-height: 760px;
-  padding: 35px 30.0px;
+  padding: 35px 30px;
   width: 1280px;
 }
 
@@ -26,7 +26,7 @@
   align-items: center;
   align-self: center;
   display: flex;
-  margin-right: 93.0px;
+  margin-right: 93px;
   min-width: 925px;
 }
 
@@ -68,7 +68,7 @@
 .desktop .place {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-bottom: 12.0px;
+  margin-bottom: 12px;
   margin-left: 384px;
   min-height: 37px;
   min-width: 80px;
@@ -79,7 +79,7 @@
   cursor: pointer;
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-bottom: 12.0px;
+  margin-bottom: 12px;
   margin-left: 83px;
   min-height: 37px;
   min-width: 113px;
@@ -90,7 +90,7 @@
   cursor: pointer;
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-bottom: 12.0px;
+  margin-bottom: 12px;
   margin-left: 83px;
   min-height: 37px;
   min-width: 114px;
@@ -136,7 +136,7 @@
 
 .desktop .if-you-need-a-profes {
   left: 4px;
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   opacity: 0.5;
   position: absolute;
@@ -178,7 +178,7 @@
 }
 
 .desktop .resume-icon {
-  margin-bottom: 2.0px;
+  margin-bottom: 2px;
   margin-top: 2.3px;
   object-fit: cover;
   width: 31.5px;
@@ -208,7 +208,7 @@
 .desktop .some-of-the-tools-i-use {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-left: 3.0px;
+  margin-left: 3px;
   margin-top: 17px;
   min-height: 37px;
   min-width: 309px;
@@ -219,7 +219,7 @@
 .desktop .front-end {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-left: 2.0px;
+  margin-left: 2px;
   margin-top: 5px;
   min-height: 37px;
   min-width: 126px;
@@ -378,7 +378,7 @@
 .desktop .back-end {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-left: 2.0px;
+  margin-left: 2px;
   margin-top: 44px;
   min-height: 37px;
   min-width: 128px;
@@ -389,7 +389,7 @@
 .desktop .desktop-container-1 {
   align-items: flex-end;
   display: flex;
-  margin-left: 2.0px;
+  margin-left: 2px;
   margin-top: 32px;
   min-width: 377px;
 }
@@ -415,7 +415,7 @@
   line-height: 25px;
   margin-bottom: -2.3px;
   margin-right: -2px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   white-space: nowrap;
   width: 51px;
 }
@@ -484,6 +484,15 @@
   white-space: nowrap;
 }
 
+.desktop .loading-rectangle {
+  border-radius: 20px;
+  height: 451px;
+  left: 88px;
+  position: absolute;
+  top: 79px;
+  width: 325px;
+}
+
 .desktop .rectangle-6 {
   background-color: var(--shampoo);
   border-radius: 20px;
@@ -508,8 +517,21 @@
   top: 452px;
 }
 
+.desktop .group-14 {
+  align-items: flex-end;
+  background: linear-gradient(90deg, #ff65d9 -56.21%, #2e145c 95.32%);
+  border-radius: 60px;
+  display: flex;
+  height: 38px;
+  left: 103px;
+  min-width: 141px;
+  padding: 0 28px;
+  position: absolute;
+  top: 452px;
+}
+
 .desktop .website {
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   min-height: 30px;
   min-width: 85px;
@@ -518,7 +540,7 @@
 
 .desktop .portfolio-picture-1 {
   background-color: var(--white);
-  background-image: url(../img/children-1@1x.png);
+  /* background-image: url(../img/academa-1@1x.png); */
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 20px;
@@ -527,6 +549,16 @@
   left: 102px;
   position: absolute;
   top: 104px;
+  width: 295px;
+}
+
+.desktop .portfolio-picture-1 .desktopchildren {
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 147px;
+  position: absolute;
   width: 295px;
 }
 
@@ -582,7 +614,7 @@
 }
 
 .desktop .code {
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   margin-bottom: -6px;
   margin-right: -2px;
@@ -614,7 +646,17 @@
   border-radius: 20px;
   box-shadow: 0px 3px 6px #00000029;
   height: 147px;
-  margin-right: 4.0px;
+  margin-right: 4px;
+  width: 295px;
+}
+
+.desktop .portfolio-picture .desktopchildren {
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 0px 3px 6px #00000029;
+  height: 147px;
+  margin-right: 4px;
   width: 295px;
 }
 
@@ -639,7 +681,7 @@
 .desktop .e-button-container {
   align-items: center;
   display: flex;
-  margin-left: 2.0px;
+  margin-left: 2px;
   margin-top: 40px;
   min-width: 297px;
 }
@@ -810,7 +852,7 @@
   align-self: center;
   letter-spacing: 0;
   line-height: 60px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 15px;
   min-height: 82px;
   min-width: 125px;
@@ -946,7 +988,7 @@
 
 .desktop .overlap-group-container-2 {
   height: 1074px;
-  margin-right: 11.0px;
+  margin-right: 11px;
   margin-top: 32px;
   position: relative;
   width: 1069px;
@@ -989,7 +1031,7 @@
   align-self: center;
   letter-spacing: 0;
   line-height: 60px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 2px;
   min-height: 82px;
   min-width: 137px;
@@ -1182,7 +1224,7 @@
   background-color: var(--athens-gray);
   border-radius: 19.5px;
   height: 39px;
-  margin-left: 413.0px;
+  margin-left: 413px;
   width: 39px;
 }
 
@@ -1194,7 +1236,7 @@
   letter-spacing: 0;
   line-height: 32px;
   margin-bottom: -3px;
-  margin-left: 102.0px;
+  margin-left: 102px;
   margin-top: 38px;
   min-height: 29px;
   min-width: 104px;
@@ -1204,7 +1246,7 @@
 
 .desktop .overlap-group12 {
   height: 137px;
-  margin-left: 104.0px;
+  margin-left: 104px;
   margin-top: 32px;
   position: relative;
   width: 472px;
@@ -1216,7 +1258,7 @@
   font-size: 56px;
   font-weight: 700;
   left: 2px;
-  letter-spacing: -1.40px;
+  letter-spacing: -1.4px;
   line-height: 64px;
   position: absolute;
   text-align: center;
@@ -1237,7 +1279,7 @@
 
 .desktop .overlap-group11 {
   height: 511px;
-  margin-left: 101.0px;
+  margin-left: 101px;
   margin-top: 51px;
   position: relative;
   width: 833px;
@@ -1380,7 +1422,7 @@
   letter-spacing: 0;
   line-height: 32px;
   margin-bottom: -3px;
-  margin-left: 103.0px;
+  margin-left: 103px;
   margin-top: 4px;
   min-height: 29px;
   min-width: 104px;
@@ -1393,9 +1435,9 @@
   font-family: var(--font-family-manrope);
   font-size: 56px;
   font-weight: 700;
-  letter-spacing: -1.40px;
+  letter-spacing: -1.4px;
   line-height: 64px;
-  margin-left: 103.0px;
+  margin-left: 103px;
   margin-top: 32px;
   min-height: 76px;
   min-width: 414px;
@@ -1409,7 +1451,7 @@
   cursor: pointer;
   display: flex;
   height: 48px;
-  margin-left: 100.0px;
+  margin-left: 100px;
   margin-top: 16px;
   min-width: 170px;
   padding: 11.5px 50px;
@@ -1633,14 +1675,14 @@
   display: flex;
   flex-direction: column;
   min-height: 667px;
-  padding: 9.0px 21px;
+  padding: 9px 21px;
   width: 375px;
 }
 
 .phone .overlap-group18-1 {
   align-self: center;
   height: 328px;
-  margin-left: 8.0px;
+  margin-left: 8px;
   margin-top: 4px;
   position: relative;
   width: 267px;
@@ -1668,7 +1710,7 @@
   font-size: var(--font-size-m);
   font-weight: 700;
   left: 0;
-  letter-spacing: 1.20px;
+  letter-spacing: 1.2px;
   line-height: 20px;
   position: absolute;
   top: 45px;
@@ -1698,7 +1740,7 @@
   flex-direction: column;
   left: 68px;
   min-height: 192px;
-  padding: 17px 15.0px;
+  padding: 17px 15px;
   position: absolute;
   top: 0;
   width: 199px;
@@ -1738,7 +1780,7 @@
   display: flex;
   height: 35px;
   justify-content: space-between;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 24px;
   width: 156px;
 }
@@ -1813,7 +1855,7 @@
   font-size: 40px;
   font-weight: 400;
   left: 0;
-  letter-spacing: 2.00px;
+  letter-spacing: 2px;
   line-height: 40px;
   position: absolute;
   top: 0;
@@ -1827,7 +1869,7 @@
   font-size: 40px;
   font-weight: 400;
   left: 18px;
-  letter-spacing: 2.00px;
+  letter-spacing: 2px;
   line-height: 40px;
   position: absolute;
   top: 14px;
@@ -1870,7 +1912,7 @@
   flex-direction: column;
   margin-top: 10px;
   min-height: 307px;
-  padding: 0 22.0px;
+  padding: 0 22px;
   width: 318px;
 }
 
@@ -1908,7 +1950,7 @@
 .phone .resume-icon-1 {
   margin-bottom: 0.8px;
   margin-left: 0;
-  margin-top: 1.0px;
+  margin-top: 1px;
   object-fit: cover;
   width: 17.59px;
 }
@@ -1941,7 +1983,7 @@
 .phone .some-of-the-tools-i-use-1 {
   letter-spacing: 0.55px;
   line-height: 11px;
-  margin-left: 18.0px;
+  margin-left: 18px;
   margin-top: 4px;
   min-height: 18px;
   min-width: 137px;
@@ -1952,7 +1994,7 @@
 .phone .front-end-1 {
   letter-spacing: 0.55px;
   line-height: 11px;
-  margin-left: 17.0px;
+  margin-left: 17px;
   margin-top: 4px;
   min-height: 18px;
   min-width: 56px;
@@ -2118,7 +2160,7 @@
 .phone .back-end-1 {
   letter-spacing: 0.55px;
   line-height: 11px;
-  margin-left: 18.0px;
+  margin-left: 18px;
   margin-top: 15px;
   min-height: 18px;
   min-width: 57px;
@@ -2129,7 +2171,7 @@
 .phone .mobile-container-1 {
   align-items: flex-end;
   display: flex;
-  margin-left: 2.0px;
+  margin-left: 2px;
   margin-top: 8px;
   min-width: 178px;
 }
@@ -2182,7 +2224,7 @@
   height: 18px;
   letter-spacing: 0.55px;
   line-height: 11px;
-  margin-right: -2.0px;
+  margin-right: -2px;
   margin-top: -18.1px;
   white-space: nowrap;
   width: 40px;
@@ -2196,7 +2238,7 @@
   display: flex;
   flex-direction: column;
   min-height: 1722px;
-  padding: 34.0px 0;
+  padding: 34px 0;
   width: 375px;
 }
 
@@ -2220,7 +2262,7 @@
   box-shadow: 0px 3px 6px #00000029;
   display: flex;
   height: 134px;
-  margin-right: 2.0px;
+  margin-right: 2px;
   width: 267px;
 }
 
@@ -2262,7 +2304,7 @@
 }
 
 .phone .website-1 {
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   min-height: 30px;
   min-width: 85px;
@@ -2273,7 +2315,7 @@
   display: flex;
   height: 28px;
   justify-content: space-between;
-  margin-left: 7.0px;
+  margin-left: 7px;
   margin-top: 17px;
   width: 101px;
 }
@@ -2302,7 +2344,7 @@
 }
 
 .phone .code-1 {
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   margin-bottom: -6px;
   margin-right: -2px;
@@ -2399,7 +2441,7 @@
   justify-content: flex-end;
   left: 0;
   min-width: 163px;
-  padding: 34.0px 23.0px;
+  padding: 34px 23px;
   position: absolute;
   top: 69px;
 }
@@ -2495,7 +2537,7 @@
   flex-direction: column;
   left: 0;
   min-height: 145px;
-  padding: 25.5px 16.0px;
+  padding: 25.5px 16px;
   position: absolute;
   top: 47px;
   width: 144px;
@@ -2508,7 +2550,7 @@
   font-weight: 700;
   letter-spacing: 0;
   line-height: 21px;
-  margin-left: 1.0px;
+  margin-left: 1px;
   min-height: 30px;
   white-space: nowrap;
 }
@@ -2787,7 +2829,7 @@
 
 .phone .lets-work-together-1 {
   left: 50px;
-  letter-spacing: -0.80px;
+  letter-spacing: -0.8px;
   line-height: 36px;
   position: absolute;
   text-align: center;
@@ -2871,7 +2913,7 @@
   height: 28px;
   margin-top: 8px;
   min-width: 229px;
-  padding: 4.0px 13.0px;
+  padding: 4px 13px;
 }
 
 .phone .placeholder-1 {
@@ -2911,7 +2953,7 @@
   height: 135px;
   margin-top: 9px;
   min-width: 229px;
-  padding: 4.0px 13.0px;
+  padding: 4px 13px;
 }
 
 .phone .send-button-1 {
@@ -2932,7 +2974,7 @@
   font-family: var(--font-family-poppins);
   font-size: 12px;
   font-weight: 300;
-  letter-spacing: 0.60px;
+  letter-spacing: 0.6px;
   line-height: 12px;
   min-height: 19px;
   min-width: 34px;
@@ -2977,7 +3019,7 @@
   height: 29px;
   left: 147px;
   min-width: 103px;
-  padding: 7.0px 33.5px;
+  padding: 7px 33.5px;
   position: absolute;
   top: 1870px;
 }
@@ -3238,14 +3280,14 @@
   display: flex;
   flex-direction: column;
   min-height: 1024px;
-  padding: 22.0px 49px;
+  padding: 22px 49px;
   width: 768px;
 }
 
 .tablet .overlap-group23 {
   align-self: center;
   height: 271px;
-  margin-left: 6.0px;
+  margin-left: 6px;
   position: relative;
   width: 596px;
 }
@@ -3272,7 +3314,7 @@
   font-size: 48px;
   font-weight: 700;
   left: 0;
-  letter-spacing: 2.40px;
+  letter-spacing: 2.4px;
   line-height: 48px;
   position: absolute;
   top: 94px;
@@ -3288,7 +3330,7 @@
   flex-direction: column;
   left: 397px;
   min-height: 192px;
-  padding: 17px 15.0px;
+  padding: 17px 15px;
   position: absolute;
   top: 0;
   width: 199px;
@@ -3328,7 +3370,7 @@
   display: flex;
   height: 35px;
   justify-content: space-between;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 24px;
   width: 156px;
 }
@@ -3403,7 +3445,7 @@
   font-size: 66px;
   font-weight: 400;
   left: 0;
-  letter-spacing: 3.30px;
+  letter-spacing: 3.3px;
   line-height: 66px;
   position: absolute;
   top: 0;
@@ -3417,7 +3459,7 @@
   font-size: 66px;
   font-weight: 400;
   left: 29px;
-  letter-spacing: 3.30px;
+  letter-spacing: 3.3px;
   line-height: 66px;
   position: absolute;
   top: 24px;
@@ -3468,7 +3510,7 @@
 
 .tablet .if-you-need-a-profes-2 {
   left: 0;
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   opacity: 0.5;
   position: absolute;
@@ -3485,13 +3527,13 @@
   height: 43px;
   left: 1px;
   min-width: 169px;
-  padding: 4.5px 26.0px;
+  padding: 4.5px 26px;
   position: absolute;
   top: 189px;
 }
 
 .tablet .contact-me-7 {
-  letter-spacing: 0.90px;
+  letter-spacing: 0.9px;
   line-height: 18px;
   min-height: 27px;
   min-width: 117px;
@@ -3537,14 +3579,14 @@
   display: flex;
   flex-direction: column;
   min-height: 429px;
-  padding: 22.4px 60.0px;
+  padding: 22.4px 60px;
   width: 768px;
 }
 
 .tablet .some-of-the-tools-i-use-2 {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-left: 45.0px;
+  margin-left: 45px;
   margin-top: 26px;
   min-height: 37px;
   min-width: 309px;
@@ -3555,7 +3597,7 @@
 .tablet .front-end-2 {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-left: 46.0px;
+  margin-left: 46px;
   margin-top: 10px;
   min-height: 37px;
   min-width: 126px;
@@ -3624,7 +3666,7 @@
 
 .tablet .javascript-icon-2 {
   height: 64px;
-  margin-right: 2.0px;
+  margin-right: 2px;
   object-fit: cover;
   width: 64px;
 }
@@ -3651,7 +3693,7 @@
 
 .tablet .adoblexd-icon {
   height: 64px;
-  margin-right: 2.0px;
+  margin-right: 2px;
   object-fit: cover;
   width: 65px;
 }
@@ -3730,7 +3772,7 @@
 .tablet .back-end-2 {
   letter-spacing: 1.25px;
   line-height: 25px;
-  margin-left: 46.0px;
+  margin-left: 46px;
   margin-top: 37px;
   min-height: 37px;
   min-width: 128px;
@@ -3741,7 +3783,7 @@
 .tablet .tablet-container-1 {
   align-items: flex-end;
   display: flex;
-  margin-left: 2.0px;
+  margin-left: 2px;
   margin-top: 25px;
   min-width: 377px;
 }
@@ -3768,7 +3810,7 @@
   line-height: 25px;
   margin-bottom: -2.3px;
   margin-right: -2px;
-  margin-top: 9.0px;
+  margin-top: 9px;
   white-space: nowrap;
   width: 51px;
 }
@@ -3821,7 +3863,7 @@
   flex-direction: column;
   margin-top: 2px;
   min-height: 478px;
-  padding: 10px 7.0px;
+  padding: 10px 7px;
   width: 198px;
 }
 
@@ -3839,7 +3881,7 @@
 .tablet .description-3 {
   letter-spacing: 0;
   line-height: 20px;
-  margin-left: 15.0px;
+  margin-left: 15px;
   margin-top: 12px;
   min-height: 29px;
   white-space: nowrap;
@@ -3848,7 +3890,7 @@
 .tablet .overlap-group-8 {
   align-self: flex-end;
   height: 267px;
-  margin-right: 3.0px;
+  margin-right: 3px;
   margin-top: 4px;
   position: relative;
   width: 171px;
@@ -3868,7 +3910,7 @@
 }
 
 .tablet .website-2 {
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   min-height: 30px;
   min-width: 85px;
@@ -3889,7 +3931,7 @@
   display: flex;
   height: 28px;
   justify-content: space-between;
-  margin-left: 15.0px;
+  margin-left: 15px;
   margin-top: 14px;
   width: 101px;
 }
@@ -3918,7 +3960,7 @@
 }
 
 .tablet .code-2 {
-  letter-spacing: 1.00px;
+  letter-spacing: 1px;
   line-height: 20px;
   margin-bottom: -6px;
   margin-right: -2px;
@@ -3945,7 +3987,7 @@
   display: flex;
   flex-direction: column;
   min-height: 478px;
-  padding: 10px 7.0px;
+  padding: 10px 7px;
   width: 198px;
 }
 
@@ -3956,14 +3998,14 @@
   display: flex;
   height: 43px;
   justify-content: flex-end;
-  margin-left: 1.0px;
+  margin-left: 1px;
   margin-top: 82px;
   min-width: 169px;
-  padding: 4.5px 16.0px;
+  padding: 4.5px 16px;
 }
 
 .tablet .explore-more-2 {
-  letter-spacing: 0.90px;
+  letter-spacing: 0.9px;
   line-height: 18px;
   min-height: 27px;
   min-width: 127px;
@@ -3980,7 +4022,7 @@
   margin-left: 20px;
   margin-top: 2px;
   min-height: 478px;
-  padding: 10px 7.0px;
+  padding: 10px 7px;
   width: 198px;
 }
 
@@ -4081,7 +4123,7 @@
   flex-direction: column;
   left: 0;
   min-height: 223px;
-  padding: 37.0px 27.0px;
+  padding: 37px 27px;
   position: absolute;
   top: 95px;
   width: 225px;
@@ -4091,7 +4133,7 @@
   align-self: center;
   letter-spacing: 0;
   line-height: 34px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 10px;
   min-height: 48px;
   min-width: 72px;
@@ -4133,7 +4175,7 @@
   flex-direction: column;
   left: 0;
   min-height: 227px;
-  padding: 42.0px 26.0px;
+  padding: 42px 26px;
   position: absolute;
   top: 73px;
   width: 223px;
@@ -4261,7 +4303,7 @@
   flex-direction: column;
   left: 143px;
   min-height: 225px;
-  padding: 41.0px 27.0px;
+  padding: 41px 27px;
   position: absolute;
   top: 103px;
   width: 223px;
@@ -4271,7 +4313,7 @@
   align-self: center;
   letter-spacing: 0;
   line-height: 34px;
-  margin-right: 2.0px;
+  margin-right: 2px;
   margin-top: 4px;
   min-height: 48px;
   min-width: 79px;
@@ -4449,7 +4491,7 @@
   flex-direction: column;
   left: 0;
   min-height: 729px;
-  padding: 6px 103.0px;
+  padding: 6px 103px;
   position: absolute;
   top: 0;
   width: 768px;
@@ -4466,7 +4508,7 @@
 .tablet .contact-me-6 {
   letter-spacing: 0;
   line-height: 16px;
-  margin-left: 51.0px;
+  margin-left: 51px;
   margin-top: 25px;
   min-height: 16px;
   min-width: 54px;
@@ -4484,7 +4526,7 @@
 
 .tablet .lets-work-together-2 {
   left: 1px;
-  letter-spacing: -0.80px;
+  letter-spacing: -0.8px;
   line-height: 36px;
   position: absolute;
   text-align: center;
@@ -4506,7 +4548,7 @@
 .tablet .overlap-group1-3 {
   align-self: flex-end;
   height: 309px;
-  margin-right: 1.0px;
+  margin-right: 1px;
   margin-top: 33px;
   position: relative;
   width: 501px;
@@ -4567,7 +4609,7 @@
   height: 28px;
   margin-top: 8px;
   min-width: 163px;
-  padding: 4.0px 13.0px;
+  padding: 4px 13px;
 }
 
 .tablet .placeholder-2 {
@@ -4605,7 +4647,7 @@
   margin-left: 0;
   margin-top: 8px;
   min-width: 163px;
-  padding: 4.0px 13.0px;
+  padding: 4px 13px;
 }
 
 .tablet .message-2 {
@@ -4636,7 +4678,7 @@
   margin-left: 0;
   margin-top: 9px;
   min-width: 343px;
-  padding: 4.0px 13.0px;
+  padding: 4px 13px;
 }
 
 .tablet .send-button-2 {
@@ -4729,7 +4771,7 @@
 }
 
 .tablet .place-9 {
-  letter-spacing: 0.90px;
+  letter-spacing: 0.9px;
   line-height: 18px;
   min-height: 27px;
   min-width: 50px;
@@ -4745,7 +4787,7 @@
   margin-left: 59.72px;
   margin-top: 13px;
   min-width: 103px;
-  padding: 7.0px 33.5px;
+  padding: 7px 33.5px;
 }
 
 .tablet .group-25 {
@@ -4973,26 +5015,26 @@
   white-space: nowrap;
 }
 @media screen and (max-width: 767px) {
-  .screen.desktop { 
+  .screen.desktop {
     display: none;
-   }
-  .screen.tablet { 
+  }
+  .screen.tablet {
     display: none;
-   }
+  }
 }
 @media screen and (min-width: 768px) and (max-width: 1279px) {
-  .screen.desktop { 
+  .screen.desktop {
     display: none;
-   }
-  .screen.phone { 
+  }
+  .screen.phone {
     display: none;
-   }
+  }
 }
 @media screen and (min-width: 1280px) {
-  .screen.tablet { 
+  .screen.tablet {
     display: none;
-   }
-  .screen.phone { 
+  }
+  .screen.phone {
     display: none;
-   }
+  }
 }
