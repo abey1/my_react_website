@@ -1,6 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
+import TabletProjects from "./tabletProjects";
+import TabletMenu from "./tabletMenu";
+import { AppContext } from "../App";
+const Tablet = () => {
+  const { menuOpened, toggleMenu } = useContext(AppContext);
 
-const tablet = () => {
   return (
     <div className="container-center-horizontal">
       <div className="tablet screen">
@@ -9,44 +13,7 @@ const tablet = () => {
             <div className="overlap-group1-5">
               <div className="overlap-group22">
                 <div className="i-develop-webpages-2">I Develop Webpages</div>
-                <div className="tablet-menu border-1px-dove-gray">
-                  <a
-                    href="#tablet-hero-background"
-                    className="align-self-flex-start"
-                  >
-                    <div className="tablet-home-menu-item-1">
-                      <img
-                        className="icon-home-1"
-                        src="img/home-icon-1@1x.png"
-                      />
-                      <div className="place-7 poppins-normal-black-25px">
-                        Home
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#desktop-portfolio-background1">
-                    <div className="tablet-portfolio-menu-item-1">
-                      <img
-                        className="portfolio-icon-1"
-                        src="img/portfolio-icon-1@1x.png"
-                      />
-                      <div className="portfolio-4 poppins-normal-black-25px">
-                        Portfolio
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#software-delivery-plan1">
-                    <div className="tablet-service-menu-item-1">
-                      <img
-                        className="service-icon-1"
-                        src="img/service-icon-1@1x.png"
-                      />
-                      <div className="services-3 poppins-normal-black-25px">
-                        Services
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                {menuOpened && <TabletMenu />}
               </div>
               <a href="#tablet-hero-background">
                 <div className="tablet-logo">
@@ -57,7 +24,10 @@ const tablet = () => {
                 </div>
               </a>
             </div>
-            <div className="tablet-menu-1">
+            <div
+              className="tablet-menu-1"
+              onClick={() => toggleMenu(menuOpened)}
+            >
               <img className="path-2-1" src="img/path-1-1@1x.png" />
               <img className="path-1" src="img/path-1-1@1x.png" />
               <img className="path-1" src="img/path-1-1@1x.png" />
@@ -156,87 +126,7 @@ const tablet = () => {
             </a>
           </div>
         </div>
-        <div className="overlap-group18-2">
-          <div className="group-17 border-1px-dove-gray">
-            <div className="portfolio-picture-3 border-1px-dove-gray"></div>
-            <div className="description-3 segoeui-regular-normal-black-20px">
-              Description
-            </div>
-            <div className="overlap-group-8">
-              <div className="desktop-open-website-button-3 border-1px-dove-gray">
-                <div className="website-2 poppins-light-white-20px">
-                  website
-                </div>
-              </div>
-              <div className="lorem-ipsum-dolor-si-11 segoeui-regular-normal-black-20px">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore
-              </div>
-            </div>
-            <div className="desktop-get-code-button-3">
-              <div className="icon-feather-code-2">
-                <img className="path-5-4" src="img/path-5-1@1x.png" />
-                <img className="path-4-4" src="img/path-4-1@1x.png" />
-              </div>
-              <div className="code-2 poppins-light-black-20px">code</div>
-            </div>
-          </div>
-          <div className="group-container-1">
-            <div className="group-18 border-1px-dove-gray">
-              <div className="portfolio-picture-3 border-1px-dove-gray"></div>
-              <div className="description-3 segoeui-regular-normal-black-20px">
-                Description
-              </div>
-              <div className="overlap-group-8">
-                <div className="desktop-open-website-button-3 border-1px-dove-gray">
-                  <div className="website-2 poppins-light-white-20px">
-                    website
-                  </div>
-                </div>
-                <div className="lorem-ipsum-dolor-si-11 segoeui-regular-normal-black-20px">
-                  Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                  diam nonumy eirmod tempor invidunt ut labore et dolore
-                </div>
-              </div>
-              <div className="desktop-get-code-button-3">
-                <div className="icon-feather-code-2">
-                  <img className="path-5-4" src="img/path-5-1@1x.png" />
-                  <img className="path-4-4" src="img/path-4-1@1x.png" />
-                </div>
-                <div className="code-2 poppins-light-black-20px">code</div>
-              </div>
-            </div>
-            <div className="overlap-group24 border-1px-dove-gray">
-              <div className="explore-more-2 poppins-light-white-18px">
-                Explore more
-              </div>
-            </div>
-          </div>
-          <div className="group-19 border-1px-dove-gray">
-            <div className="portfolio-picture-3 border-1px-dove-gray"></div>
-            <div className="description-3 segoeui-regular-normal-black-20px">
-              Description
-            </div>
-            <div className="overlap-group-8">
-              <div className="desktop-open-website-button-3 border-1px-dove-gray">
-                <div className="website-2 poppins-light-white-20px">
-                  website
-                </div>
-              </div>
-              <div className="lorem-ipsum-dolor-si-11 segoeui-regular-normal-black-20px">
-                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
-                diam nonumy eirmod tempor invidunt ut labore et dolore
-              </div>
-            </div>
-            <div className="desktop-get-code-button-3">
-              <div className="icon-feather-code-2">
-                <img className="path-5-4" src="img/path-5-1@1x.png" />
-                <img className="path-4-4" src="img/path-4-1@1x.png" />
-              </div>
-              <div className="code-2 poppins-light-black-20px">code</div>
-            </div>
-          </div>
-        </div>
+        <TabletProjects />
         <div className="software-delivery-plan1" id="software-delivery-plan1">
           <div className="overlap-group10-1">
             <div className="software-delivery-plan-background-1 border-1px-dove-gray"></div>
@@ -542,4 +432,4 @@ const tablet = () => {
   );
 };
 
-export default tablet;
+export default Tablet;

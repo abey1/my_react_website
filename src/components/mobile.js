@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useContext } from "react";
+import MobileMenu from "./mobileMenu";
+import MobileProjects from "./mobileProjects";
+import { AppContext } from "../App";
 
-const mobile = () => {
+const Mobile = () => {
+  const { menuOpened, toggleMenu } = useContext(AppContext);
+
   return (
     <div className="container-center-horizontal">
       <div className="phone screen">
@@ -15,41 +20,7 @@ const mobile = () => {
                   eye catching web page but also assist you in hosting it online
                   and attract customers to including online payment.
                 </p>
-                <div className="phone-menu border-1px-dove-gray">
-                  <a
-                    href="#phone-hero-background"
-                    className="align-self-flex-start"
-                  >
-                    <div className="tablet-home-menu-item">
-                      <img className="icon-home" src="img/home-icon-1@1x.png" />
-                      <div className="place-3 poppins-normal-black-25px">
-                        Home
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#desktop-portfolio-background2">
-                    <div className="tablet-portfolio-menu-item">
-                      <img
-                        className="portfolio-icon"
-                        src="img/portfolio-icon-1@1x.png"
-                      />
-                      <div className="portfolio-2 poppins-normal-black-25px">
-                        Portfolio
-                      </div>
-                    </div>
-                  </a>
-                  <a href="#work-plan-bg">
-                    <div className="tablet-service-menu-item">
-                      <img
-                        className="service-icon"
-                        src="img/service-icon-1@1x.png"
-                      />
-                      <div className="services-1 poppins-normal-black-25px">
-                        Services
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                {menuOpened && <MobileMenu />}
               </div>
               <a href="#phone-hero-background">
                 <div className="phone-logo">
@@ -60,7 +31,10 @@ const mobile = () => {
                 </div>
               </a>
             </div>
-            <div className="phone-menu-1">
+            <div
+              className="phone-menu-1"
+              onClick={() => toggleMenu(menuOpened)}
+            >
               <img className="path-2" src="img/path-1-1@1x.png" />
               <img className="path" src="img/path-1-1@1x.png" />
               <img className="path" src="img/path-1-1@1x.png" />
@@ -146,77 +120,7 @@ const mobile = () => {
             </a>
           </div>
         </div>
-        <div className="overlap-group14-1">
-          <div className="group-20 border-1px-dove-gray">
-            <div className="portfolio-picture-2 border-1px-dove-gray">
-              <img className="children" src="img/children-6@1x.png" />
-            </div>
-            <div className="description-2 segoeui-regular-normal-black-20px">
-              Description
-            </div>
-            <div className="lorem-ipsum-dolor-si-6 segoeui-regular-normal-black-20px">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore
-            </div>
-            <div className="desktop-open-website-button-2 border-1px-dove-gray">
-              <div className="website-1 poppins-light-white-20px">website</div>
-            </div>
-            <div className="desktop-get-code-button-2">
-              <div className="icon-feather-code-1">
-                <img className="path-5-3" src="img/path-5-1@1x.png" />
-                <img className="path-4-3" src="img/path-4-1@1x.png" />
-              </div>
-              <div className="code-1 poppins-light-black-20px">code</div>
-            </div>
-          </div>
-          <div className="group-2 border-1px-dove-gray">
-            <div className="portfolio-picture-2 border-1px-dove-gray">
-              <img className="children" src="img/children-6@1x.png" />
-            </div>
-            <div className="description-2 segoeui-regular-normal-black-20px">
-              Description
-            </div>
-            <div className="lorem-ipsum-dolor-si-6 segoeui-regular-normal-black-20px">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore
-            </div>
-            <div className="desktop-open-website-button-2 border-1px-dove-gray">
-              <div className="website-1 poppins-light-white-20px">website</div>
-            </div>
-            <div className="desktop-get-code-button-2">
-              <div className="icon-feather-code-1">
-                <img className="path-5-3" src="img/path-5-1@1x.png" />
-                <img className="path-4-3" src="img/path-4-1@1x.png" />
-              </div>
-              <div className="code-1 poppins-light-black-20px">code</div>
-            </div>
-          </div>
-          <div className="group-2 border-1px-dove-gray">
-            <div className="portfolio-picture-2 border-1px-dove-gray">
-              <img className="children" src="img/children-6@1x.png" />
-            </div>
-            <div className="description-2 segoeui-regular-normal-black-20px">
-              Description
-            </div>
-            <div className="lorem-ipsum-dolor-si-6 segoeui-regular-normal-black-20px">
-              Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-              nonumy eirmod tempor invidunt ut labore et dolore
-            </div>
-            <div className="desktop-open-website-button-2 border-1px-dove-gray">
-              <div className="website-1 poppins-light-white-20px">website</div>
-            </div>
-            <div className="desktop-get-code-button-2">
-              <div className="icon-feather-code-1">
-                <img className="path-5-3" src="img/path-5-1@1x.png" />
-                <img className="path-4-3" src="img/path-4-1@1x.png" />
-              </div>
-              <div className="code-1 poppins-light-black-20px">code</div>
-            </div>
-          </div>
-          <div className="component-23-2 border-1px-dove-gray">
-            <div className="explore-more-1">Explore More</div>
-          </div>
-        </div>
+        <MobileProjects />
         <div className="overlap-group13-1">
           <img
             className="work-plan-bg-1"
@@ -440,4 +344,4 @@ const mobile = () => {
   );
 };
 
-export default mobile;
+export default Mobile;

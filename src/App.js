@@ -4,16 +4,33 @@ import Tablet from "./components/tablet.js";
 import Mobile from "./components/mobile.js";
 
 const reducer = (state, action) => {
-  if (action.type === "dataLoaded") {
-    const newState = { ...state, loading: false, data: action.payload };
-    return newState;
+  switch (action.type) {
+    case "dataLoaded":
+      return { ...state, loading: false, data: action.payload };
+    case "toggleMenu":
+      return { ...state, menuOpened: action.payload.menuOpened };
   }
+  // if (action.type === "dataLoaded") {
+  //   const newState =
+  //   return newState;
+  // }
 };
 
 export const AppContext = React.createContext();
 
 function App() {
-  const initialState = { data: [], loading: true };
+  const toggleMenu = (menuState) => {
+    dispatch({
+      type: "toggleMenu",
+      payload: { menuOpened: !menuState },
+    });
+  };
+  const initialState = {
+    data: [],
+    loading: true,
+    menuOpened: false,
+    toggleMenu: toggleMenu,
+  };
   const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {

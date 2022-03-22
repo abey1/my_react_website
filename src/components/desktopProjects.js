@@ -2,9 +2,6 @@ import React, { useContext } from "react";
 import { AppContext } from "../App.js";
 const DesktopProjects = () => {
   const { data, loading } = useContext(AppContext);
-  console.log("data = ", data, " and loading = ", loading);
-
-  const reacturl = "https://reactjs.org/";
   return loading ? (
     <div className="loading-rectangle">
       <h1 style={{ textCenter: true, color: "white" }}>Loading...</h1>
@@ -28,10 +25,7 @@ const DesktopProjects = () => {
         />
       </div>
       <div className="description-1">{data[0].name}</div>
-      <div className="lorem-ipsum-dolor-si-1">
-        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-        eirmod tempor invidunt ut labore et dolore
-      </div>
+      <div className="lorem-ipsum-dolor-si-1">{data[0].web_description}</div>
       <div className="desktop-get-code-button-1">
         <div className="icon-feather-code">
           <img className="path-5" src="img/path-5-1@1x.png" />
@@ -49,10 +43,7 @@ const DesktopProjects = () => {
           />
         </div>
         <div className="description">{data[1].name}</div>
-        <div className="lorem-ipsum-dolor-si">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore
-        </div>
+        <div className="lorem-ipsum-dolor-si">{data[1].web_description}</div>
         <div className="e-button-container">
           <div className="desktop-open-website-button border-1px-dove-gray">
             <a href={data[1].web_url} target="_blank">
@@ -78,10 +69,7 @@ const DesktopProjects = () => {
           />
         </div>
         <div className="description">{data[2].name}</div>
-        <div className="lorem-ipsum-dolor-si">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore
-        </div>
+        <div className="lorem-ipsum-dolor-si">{data[2].web_description}</div>
         <div className="e-button-container">
           <div className="desktop-open-website-button border-1px-dove-gray">
             <a href={data[2].web_url} target="_blank">

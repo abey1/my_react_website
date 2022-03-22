@@ -3869,7 +3869,7 @@
 
 .tablet .portfolio-picture-3 {
   background-color: var(--white);
-  background-image: url(../img/children-3@1x.png);
+  /* background-image: url(../img/children-3@1x.png); */
   background-position: 50% 50%;
   background-size: cover;
   border-radius: 20px;
