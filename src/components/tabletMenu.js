@@ -16,10 +16,7 @@ const TabletMenu = () => {
           <div className="place-7 poppins-normal-black-25px">Home</div>
         </div>
       </a>
-      <a
-        href="#desktop-portfolio-background1"
-        onClick={() => toggleMenu(menuOpened)}
-      >
+      <a href="#overlap-group18-2" onClick={() => toggleMenu(menuOpened)}>
         <div className="tablet-portfolio-menu-item-1">
           <img className="portfolio-icon-1" src="img/portfolio-icon-1@1x.png" />
           <div className="portfolio-4 poppins-normal-black-25px">Portfolio</div>

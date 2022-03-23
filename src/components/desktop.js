@@ -1,5 +1,7 @@
 import React from "react";
 import DesktopProjects from "./desktopProjects.js";
+import ContactMe from "./desktopContactMe.js";
+
 const Desktop = () => {
   return (
     <div className="container-center-horizontal">
@@ -127,7 +129,7 @@ const Desktop = () => {
             </div>
           </div>
           <DesktopProjects />
-          <div className="overlap-group10">
+          <div id="software-delivery-plan" className="overlap-group10">
             <div className="software-delivery-plan-background border-1px-dove-gray"></div>
             <img className="work-plan-bg" src="img/work-plan-bg@1x.png" />
             <div className="my-software-delivery-plan">
@@ -222,63 +224,7 @@ const Desktop = () => {
             </div>
           </div>
         </div>
-        <div className="overlap-group16">
-          <div className="oval"></div>
-          <div className="contact-me-1 border-1px-dove-gray" id="contact-me">
-            <div className="oval-1"></div>
-            <div className="contact-me-2">Contact Me</div>
-            <div className="overlap-group12">
-              <div className="lets-work-together">Let’s Work Together</div>
-              <p className="the-sky-was-cloudles manrope-normal-bright-gray-16px">
-                The sky was cloudless and of a deep dark blue the spectacle
-                before us was indeed sublime.
-              </p>
-            </div>
-            <div className="overlap-group11">
-              <div className="rectangle"></div>
-              <div className="rectangle-1"></div>
-              <div className="oval-2"></div>
-              <div className="name">
-                <div className="label manrope-bold-bright-gray-12px"></div>
-                <div className="overlap-group-1 border-1px-alto">
-                  <div className="placeholder manrope-normal-bright-gray-16px-2">
-                    Name
-                  </div>
-                </div>
-              </div>
-              <div className="email">
-                <div className="label manrope-bold-bright-gray-12px"></div>
-                <div className="overlap-group-1 border-1px-alto">
-                  <div className="placeholder manrope-normal-bright-gray-16px-2">
-                    Email
-                  </div>
-                </div>
-              </div>
-              <div className="message">
-                <div className="label manrope-bold-bright-gray-12px"></div>
-                <div className="overlap-group2-1 border-1px-alto">
-                  <div className="placeholder manrope-normal-bright-gray-16px-2">
-                    Message
-                  </div>
-                </div>
-              </div>
-              <div className="send-button border-1px-dove-gray">
-                <div className="place-1 poppins-light-white-21px">Send</div>
-              </div>
-            </div>
-            <div className="oval-3"></div>
-            <div className="my-linkedin">My linkedin</div>
-            <div className="connect-with-me">Connect With Me</div>
-            <a
-              href="https://www.linkedin.com/in/abey-bruck-415a8480/"
-              target="_blank"
-            >
-              <div className="linkedin border-1px-true-v">
-                <div className="button">#LINKEDIN</div>
-              </div>
-            </a>
-          </div>
-        </div>
+        <ContactMe />
         <div className="group-24">
           <div className="flex-row-1">
             <a href="#desktop-hero-background" className="align-self-flex-end">

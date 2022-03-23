@@ -5,11 +5,11 @@ const TabletProjects = () => {
   const { data, loading } = useContext(AppContext);
   console.log("data = ", data, " and loading = ", loading);
   return loading ? (
-    <div className="loading-rectangle">
-      <h1 style={{ textCenter: true, color: "white" }}>Loading...</h1>
+    <div>
+      <h1>Loading...</h1>
     </div>
   ) : (
-    <div className="overlap-group18-2">
+    <div id="overlap-group18-2" className="overlap-group18-2">
       <div className="group-17 border-1px-dove-gray">
         <img
           className="portfolio-picture-3 border-1px-dove-gray"

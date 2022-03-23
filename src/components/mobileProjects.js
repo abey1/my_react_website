@@ -1,18 +1,26 @@
-import React from "react";
-
+import React, { useContext } from "react";
+import App, { AppContext } from "../App";
 const MobileProjects = () => {
-  return (
-    <div className="overlap-group14-1">
+  const { data, loading } = useContext(AppContext);
+  return loading ? (
+    <div>
+      <h1>Loading...</h1>
+    </div>
+  ) : (
+    <div id="desktop-portfolio-background2" className="overlap-group14-1">
       <div className="group-20 border-1px-dove-gray">
         <div className="portfolio-picture-2 border-1px-dove-gray">
-          <img className="children" src="img/children-6@1x.png" />
+          <img
+            className="children"
+            src={"data:image/png;base64," + data[0].pic}
+            alt="website tumbnail"
+          />
         </div>
         <div className="description-2 segoeui-regular-normal-black-20px">
-          Description
+          {data[0].name}
         </div>
         <div className="lorem-ipsum-dolor-si-6 segoeui-regular-normal-black-20px">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore
+          {data[0].web_description}
         </div>
         <div className="desktop-open-website-button-2 border-1px-dove-gray">
           <div className="website-1 poppins-light-white-20px">website</div>
@@ -27,14 +35,17 @@ const MobileProjects = () => {
       </div>
       <div className="group-2 border-1px-dove-gray">
         <div className="portfolio-picture-2 border-1px-dove-gray">
-          <img className="children" src="img/children-6@1x.png" />
+          <img
+            className="children"
+            src={"data:image/png;base64," + data[1].pic}
+            alt="website tumbnail"
+          />
         </div>
         <div className="description-2 segoeui-regular-normal-black-20px">
-          Description
+          {data[1].name}
         </div>
         <div className="lorem-ipsum-dolor-si-6 segoeui-regular-normal-black-20px">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore
+          {data[1].web_description}
         </div>
         <div className="desktop-open-website-button-2 border-1px-dove-gray">
           <div className="website-1 poppins-light-white-20px">website</div>
@@ -49,14 +60,17 @@ const MobileProjects = () => {
       </div>
       <div className="group-2 border-1px-dove-gray">
         <div className="portfolio-picture-2 border-1px-dove-gray">
-          <img className="children" src="img/children-6@1x.png" />
+          <img
+            className="children"
+            src={"data:image/png;base64," + data[2].pic}
+            alt="website tumbnail"
+          />
         </div>
         <div className="description-2 segoeui-regular-normal-black-20px">
-          Description
+          {data[2].name}
         </div>
         <div className="lorem-ipsum-dolor-si-6 segoeui-regular-normal-black-20px">
-          Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-          nonumy eirmod tempor invidunt ut labore et dolore
+          {data[2].web_description}
         </div>
         <div className="desktop-open-website-button-2 border-1px-dove-gray">
           <div className="website-1 poppins-light-white-20px">website</div>
