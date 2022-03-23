@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import MobileMenu from "./mobileMenu";
 import MobileProjects from "./mobileProjects";
+import MobileContactMe from "./mobileContactMe";
 import { AppContext } from "../App";
 
 const Mobile = () => {
@@ -218,52 +219,7 @@ const Mobile = () => {
             The sky was cloudless and of a deep dark blue the spectacle before
             us was indeed sublime.
           </p>
-          <div className="oval-4"></div>
-          <div className="oval-5"></div>
-          <div className="rectangle-3"></div>
-          <div className="rectangle-4"></div>
-          <div className="name-1">
-            <div className="label-1 manrope-bold-bright-gray-5px"></div>
-            <div className="overlap-group-3 border-1px-alto">
-              <div className="placeholder-1 manrope-normal-bright-gray-9px">
-                Name
-              </div>
-            </div>
-          </div>
-          <div className="email-1">
-            <div className="label-1 manrope-bold-bright-gray-5px"></div>
-            <div className="overlap-group-3 border-1px-alto">
-              <div className="placeholder-1 manrope-normal-bright-gray-9px">
-                Email
-              </div>
-            </div>
-          </div>
-          <div className="message-1">
-            <div className="label-1 manrope-bold-bright-gray-5px"></div>
-            <div className="overlap-group11-1 border-1px-alto">
-              <div className="placeholder-1 manrope-normal-bright-gray-9px">
-                Message
-              </div>
-            </div>
-          </div>
-          <div className="send-button-1 border-1px-dove-gray">
-            <div className="place-4">Send</div>
-          </div>
-          <div className="oval-6"></div>
-          <div className="my-linkedin-1 manrope-bold-purple-pizzazz-9px">
-            My linkedin
-          </div>
-          <div className="connect-with-me-1 manrope-bold-bright-gray-31px">
-            Connect With Me
-          </div>
-          <a
-            href="https://www.linkedin.com/in/abey-bruck-415a8480/"
-            target="_blank"
-          >
-            <div className="linkedin-1 border-1px-true-v">
-              <div className="button-1 manrope-bold-true-v-7px">#LINKEDIN</div>
-            </div>
-          </a>
+          <MobileContactMe />
         </div>
         <div className="group-29">
           <a href="#phone-hero-background">

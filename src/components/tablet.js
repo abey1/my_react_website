@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import TabletProjects from "./tabletProjects";
 import TabletMenu from "./tabletMenu";
+import TabletContactMe from "./tabletContactMe";
 import { AppContext } from "../App";
 const Tablet = () => {
   const { menuOpened, toggleMenu } = useContext(AppContext);
@@ -227,131 +228,7 @@ const Tablet = () => {
           </div>
         </div>
         <div className="group-container-2">
-          <div className="contact-me-container">
-            <div className="contact-me-5 border-1px-dove-gray">
-              <div className="oval-7"></div>
-              <div className="contact-me-6 manrope-bold-purple-pizzazz-10px">
-                Contact Me
-              </div>
-              <div className="overlap-group1-2">
-                <div className="lets-work-together-2 manrope-bold-bright-gray-32px">
-                  Let’s Work Together
-                </div>
-                <p className="the-sky-was-cloudles-2 manrope-normal-bright-gray-16px">
-                  The sky was cloudless and of a deep dark blue the spectacle
-                  before us was indeed sublime.
-                </p>
-              </div>
-              <div className="overlap-group1-3">
-                <div className="rectangle-7"></div>
-                <div className="rectangle-8"></div>
-                <div className="oval-8"></div>
-                <div className="name-2">
-                  <div className="label-2 manrope-bold-bright-gray-5px"></div>
-                  <div className="overlap-group-9 border-1px-alto">
-                    <div className="placeholder-2 manrope-normal-bright-gray-9px">
-                      Name
-                    </div>
-                  </div>
-                </div>
-                <div className="email-2">
-                  <div className="label-3 manrope-bold-bright-gray-5px"></div>
-                  <div className="overlap-group1-4 border-1px-alto">
-                    <div className="placeholder-2 manrope-normal-bright-gray-9px">
-                      Email
-                    </div>
-                  </div>
-                </div>
-                <div className="message-2">
-                  <div className="label-4 manrope-bold-bright-gray-5px"></div>
-                  <div className="overlap-group2-4 border-1px-alto">
-                    <div className="placeholder-2 manrope-normal-bright-gray-9px">
-                      Message
-                    </div>
-                  </div>
-                </div>
-                <div className="send-button-2 border-1px-dove-gray">
-                  <div className="place-8">Send</div>
-                </div>
-              </div>
-              <div className="oval-9"></div>
-              <div className="my-linkedin-2 manrope-bold-purple-pizzazz-9px">
-                My linkedin
-              </div>
-              <div className="connect-with-me-2 manrope-bold-bright-gray-31px">
-                Connect With Me
-              </div>
-              <div className="linkedin-2 border-1px-true-v">
-                <div className="button-2 manrope-bold-true-v-7px">
-                  #LINKEDIN
-                </div>
-              </div>
-            </div>
-            <div className="contact-me-5 border-1px-dove-gray" id="contact-me1">
-              <div className="oval-7"></div>
-              <div className="contact-me-6 manrope-bold-purple-pizzazz-10px">
-                Contact Me
-              </div>
-              <div className="overlap-group1-2">
-                <div className="lets-work-together-2 manrope-bold-bright-gray-32px">
-                  Let’s Work Together
-                </div>
-                <p className="the-sky-was-cloudles-2 manrope-normal-bright-gray-16px">
-                  The sky was cloudless and of a deep dark blue the spectacle
-                  before us was indeed sublime.
-                </p>
-              </div>
-              <div className="overlap-group1-3">
-                <div className="rectangle-7"></div>
-                <div className="rectangle-8"></div>
-                <div className="oval-8"></div>
-                <div className="name-2">
-                  <div className="label-2 manrope-bold-bright-gray-5px"></div>
-                  <div className="overlap-group-9 border-1px-alto">
-                    <div className="placeholder-2 manrope-normal-bright-gray-9px">
-                      Name
-                    </div>
-                  </div>
-                </div>
-                <div className="email-2">
-                  <div className="label-3 manrope-bold-bright-gray-5px"></div>
-                  <div className="overlap-group1-4 border-1px-alto">
-                    <div className="placeholder-2 manrope-normal-bright-gray-9px">
-                      Email
-                    </div>
-                  </div>
-                </div>
-                <div className="message-2">
-                  <div className="label-4 manrope-bold-bright-gray-5px"></div>
-                  <div className="overlap-group2-4 border-1px-alto">
-                    <div className="placeholder-2 manrope-normal-bright-gray-9px">
-                      Message
-                    </div>
-                  </div>
-                </div>
-                <div className="send-button-3 border-1px-dove-gray">
-                  <div className="place-9 poppins-light-white-18px">Send</div>
-                </div>
-              </div>
-              <div className="oval-9"></div>
-              <div className="my-linkedin-2 manrope-bold-purple-pizzazz-9px">
-                My linkedin
-              </div>
-              <div className="connect-with-me-2 manrope-bold-bright-gray-31px">
-                Connect With Me
-              </div>
-              <a
-                href="https://www.linkedin.com/in/abey-bruck-415a8480/"
-                target="_blank"
-              >
-                <div className="linkedin-3 border-1px-true-v">
-                  <div className="button-2 manrope-bold-true-v-7px">
-                    #LINKEDIN
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
+          <TabletContactMe />
           <div className="group-25">
             <div className="flex-row-2">
               <a href="#tablet-hero-background" className="align-self-flex-end">
